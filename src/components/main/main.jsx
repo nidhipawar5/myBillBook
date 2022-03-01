@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import React, { useState } from "react";
 import "./main.css";
 import Iso from "../../resources/iso-black.svg";
 import axios from "axios";

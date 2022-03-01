@@ -1,5 +1,5 @@
 import React from 'react'
-import {Nav, NavLink,Bars,NavMenu } from './navbarelements'
+import {Nav, NavLink, NavMenu } from './navbarelements'
 import logo from '../../resources/logo.png'
 
 const Navbar = () => {

@@ -1,6 +1,5 @@
 import React from "react";
 import "../footer/footer.css";
-import { Container, Row, Col } from "react-bootstrap";
 import whatsapplogo from "../../resources/whatsapp-1.svg";
 import chatlogo from "../../resources/chat-icon.svg";
 import youtube from "../../resources/youtube.svg";

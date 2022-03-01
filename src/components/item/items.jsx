@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./items.css";
 import Nodata from "../../resources/nodata.png";
 
