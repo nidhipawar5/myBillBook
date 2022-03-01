@@ -1,0 +1,164 @@
+.head {
+  border-bottom: 2px solid rgb(202, 202, 202);
+  height: 50px;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+}
+
+.heading2 {
+  /* border-left: 2px solid rgb(202, 202, 202); */
+  border-right: 2px solid rgb(202, 202, 202);
+  height: 50px;
+  color: rgb(105, 105, 105);
+  padding: 10px;
+}
+.heading2-1 {
+  height: 50px;
+  color: rgb(105, 105, 105);
+  font-weight: bolder;
+  padding: 10px;
+}
+.item-content {
+  padding: 30px;
+  border-top: 2px solid rgb(202, 202, 202);
+  border-right: 2px solid rgb(202, 202, 202);
+  height: 100vh;
+  background: #fbfbfd;
+}
+.tableDesign {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+th {
+  color: rgb(185, 185, 185);
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  font-size: 12px;
+  cursor: pointer;
+}
+tr {
+  border-top: none;
+}
+.search-symbol {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.search-1 {
+  width: 45%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.content-bar {
+  width: 100%;
+  border: 2px solid rgb(202, 202, 202);
+  margin-top: 10px;
+  background: #f3f3f3;
+}
+.content-bar1 {
+  width: 100%;
+  border: 2px solid rgb(202, 202, 202);
+  border-top: none;
+
+  background: #fff;
+}
+.content-bar1 > p {
+  font-size: small;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5px;
+}
+.content-bar > p {
+  font-size: small;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5px;
+}
+.form-content {
+  padding: 15px;
+
+  border-top: 2px solid rgb(202, 202, 202);
+
+  height: 100%;
+}
+.form-heading {
+  font-size: 14px;
+  color: #687e96;
+  margin-top: auto;
+}
+.lf-col {
+  margin-bottom: 20px;
+}
+.rt-col {
+  margin-bottom: 20px;
+}
+.optional {
+  background: #f3f3f3;
+  color: grey;
+  font-size: small;
+  padding: 10px;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 17px;
+  margin-bottom: 20px;
+}
+select {
+  color: #495057;
+  border: 1px solid #ced4da;
+  padding: 8px;
+  width: 90%;
+}
+
+.userno {
+  text-align: center;
+}
+
+.table-scroll {
+  /*width:100%; */
+  display: block;
+  /* empty-cells: show; */
+
+  /* Decoration */
+  /* border-spacing: 0; */
+  /* border: 1px solid; */
+}
+
+.table-scroll thead {
+  /* background-color: #f1f1f1;   */
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.table-scroll tbody {
+  /* Position */
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow-y: scroll;
+  /* Decoration */
+}
+
+.table-scroll tr {
+  width: 100%;
+  display: flex;
+}
+
+.table-scroll td,
+.table-scroll th {
+  flex-basis: 100%;
+  flex-grow: 2;
+  display: block;
+  /* padding: 1rem; */
+  /* text-align:left; */
+}
+
+.body-half-screen {
+  max-height: 70vh;
+}
