@@ -1,0 +1,17 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+::placeholder {
+  color: rgb(180, 179, 179);
+  font-size: 14px;
+}
+html,
+body {
+  height: 100%;
+}
+.w-95 {
+  width: 95%;
+}

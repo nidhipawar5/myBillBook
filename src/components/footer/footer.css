@@ -1,0 +1,62 @@
+.main-footer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #ff8c00;
+  text-align: left;
+}
+.footer-content {
+  font-size: 1rem;
+  padding: 2px;
+}
+
+.whatsapp {
+  display: flex;
+  background: #e7f4f2;
+  align-items: center;
+  height: 40px;
+  width: 160px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0 11px;
+  color: #128c7e;
+  margin-top: 25px;
+}
+.whatsapp .b {
+  font-size: small;
+}
+.chat {
+  display: flex;
+  background: #eaf1ff;
+  align-items: center;
+  height: 40px;
+  width: 160px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0 11px;
+  color: #488dff;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.chat .b {
+  font-size: small;
+}
+.links {
+  margin-top: 6px;
+  gap: 8px;
+}
+
+.flag {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 16%);
+  cursor: pointer;
+}
